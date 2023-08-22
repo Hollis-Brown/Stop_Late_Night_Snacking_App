@@ -1,9 +1,8 @@
-document.querySelector('#help').addEventListener('click', stopSnacking);
+document.querySelector("#help").addEventListener("click", stopSnacking);
 
 function stopSnacking() {
-  let numOfSnacks = parseInt(document.querySelector('#snacksInput').value);
-  document.querySelector('#stops').innerText = "";
-  for (let i = 1; i <= numOfSnacks; i++) {
-    document.querySelector('#stops').innerText += ' STOP!';
-  }
+    let numSnacks = document.querySelector("input").value;
+    for (let i = 1; i <= numSnacks; i++) {
+        document.querySelector("#stops").innerText += `${'Stop snacking!'} `;
+    }
 }
