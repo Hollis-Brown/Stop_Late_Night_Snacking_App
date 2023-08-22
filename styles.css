@@ -1,0 +1,8 @@
+.content{
+  max-width: 500px;
+  margin: auto;
+}
+
+h1, form, h2 {
+  text-align: center;
+}
