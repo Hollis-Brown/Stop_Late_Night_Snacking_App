@@ -1,6 +1,6 @@
 # Stop Late Night Snacking App
 
-![App Screenshot](screenshot.png)
+![App Screenshot](https://i.imgur.com/qoS7cpD.png)
 
 ## Table of Contents
 
